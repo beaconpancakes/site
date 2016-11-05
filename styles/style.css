@@ -36,6 +36,7 @@ h2 {
   font-size: 1.75rem;
   font-weight: 300;
   color: #787a89;
+  margin-bottom: 0.7rem;
 }
 
 #header-top {
@@ -96,4 +97,12 @@ nav a {
 
 main {
   padding-left: 3rem;
+}
+
+#page-home img {
+  margin: 0.3rem;
+}
+
+#project-grid {
+  margin-left: -0.3rem; /* minus #page-home img { margin } */
 }
