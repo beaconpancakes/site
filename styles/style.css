@@ -5,23 +5,29 @@
 
 html {
   font-family: "Open Sans", sans-serif;
+  /* min-fs + (max-fs - min-fs) * ((viewport-width - min-vw) / (max-vw - min-vw)) */
+  font-size: calc(16px + (21 - 16) * ((100vw - 320px) / (1920 - 320)));
 }
 
 a {
   color: #a11f5b;
 }
 
+a:hover {
+  font-weight: 400;
+}
+
 header {
   position: sticky;
   top: 0;
-  padding: 1em;
-  padding-top: 2em;
+  padding: 1rem;
+  padding-top: 2rem;
   box-shadow: 0 2px 4px 0 rgba(75, 75, 75, 0.3);
   background-color: white;
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 1.75rem;
   font-weight: 500;
   color: #787a89;
 }
@@ -32,8 +38,9 @@ h1 {
 }
 
 #header-top p {
-  margin-left: 1em;
+  margin-left: 1rem;
   font-weight: 400;
+  font-size: 1.15rem;
   color: #a11f5b;
 }
 
@@ -49,9 +56,27 @@ h1 {
 
 #wrapper {
   display: flex;
+  margin-top: 2rem;
 }
 
 nav {
   box-sizing: border-box;
-  width: 25%;
+  width: 20%;
+  min-width: 200px;
+  padding-left: 1rem;
+  font-size: 1.4rem;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  margin-bottom: 1em;
+}
+
+nav a {
+  color: #787a89;
+  text-decoration: none;
+  font-weight: 300;
 }
