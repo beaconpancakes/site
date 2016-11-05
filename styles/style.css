@@ -29,19 +29,10 @@ h1 {
 
 #header-top {
   display: flex;
-  align-items: center;
-}
-
-#header-top > section {
-  flex: 1;
-}
-
-#job-title {
-  display: flex;
   align-items: baseline;
 }
 
-#job-title p {
+#header-top p {
   margin-left: 1em;
   font-weight: 400;
   color: #a11f5b;
@@ -49,6 +40,7 @@ h1 {
 
 #social-media {
   text-align: right;
+  margin-left: auto;
 }
 
 #contact {
