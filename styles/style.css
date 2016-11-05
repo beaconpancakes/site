@@ -103,6 +103,7 @@ main {
 
 #page-home img {
   margin: 0.3rem;
+  border-radius: 10px 0;
 }
 
 #project-grid {
