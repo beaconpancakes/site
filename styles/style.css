@@ -17,6 +17,10 @@ a:hover {
   font-weight: 400;
 }
 
+body.no-scroll {
+  overflow: hidden;
+}
+
 header {
   position: relative; /* For Blink for Android compatibility */
   z-index: 499;
@@ -71,7 +75,7 @@ h2 {
   left: 0;
   right: 0;
   z-index: 999;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: #333;
   color: white;
   outline: 1px red solid;
 }
@@ -87,12 +91,17 @@ h2 {
 }
 
 #project-detail > section {
+  text-align: center;
   flex: 8;
+  overflow: auto;
+  padding: 1rem 0;
 }
 
 #project-detail > section img {
   width: 80%;
   height: auto;
+  margin: 1rem 0;
+  box-shadow: 0 0 35px 2px black;
 }
 
 #project-detail > aside {
