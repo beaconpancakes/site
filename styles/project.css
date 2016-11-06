@@ -1,6 +1,6 @@
 .project-shell {
   position: fixed;
-  top: 110px;
+  top: 110px; /* header height */
   bottom: 0;
   box-sizing: border-box;
   background-color: transparent;
@@ -25,6 +25,7 @@ main {
   box-sizing: border-box;
   width: 50%;
   left: 10%;
+  margin-top: 110px; /* header height */
   text-align: center;
   padding: 1rem 0;
 }
