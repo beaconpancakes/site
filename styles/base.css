@@ -25,7 +25,10 @@ header {
   padding: 1rem;
   padding-top: 2rem;
   box-shadow: 0 2px 4px 0 rgba(75, 75, 75, 0.3);
+  color: black;
   background-color: white;
+  box-sizing: border-box;
+  height: 110px;
 }
 
 h1 {
