@@ -19,7 +19,7 @@ a:hover {
 
 header {
   position: relative; /* For Blink for Android compatibility */
-  z-index: 999;
+  z-index: 499;
   position: sticky;
   top: 0;
   padding: 1rem;
@@ -61,6 +61,42 @@ h2 {
 #contact {
   text-align: right;
   font-weight: 300;
+}
+
+#project-detail {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  outline: 1px red solid;
+}
+
+#project-detail > * {
+  outline: 1px blue solid;
+}
+
+#project-detail > nav {
+  flex: 1;
+  min-width: 60px;
+  box-sizing: border-box;
+}
+
+#project-detail > section {
+  flex: 8;
+}
+
+#project-detail > section img {
+  width: 80%;
+  height: auto;
+}
+
+#project-detail > aside {
+  flex: 4;
 }
 
 #wrapper {
@@ -106,6 +142,10 @@ main {
   border-radius: 10px 0;
 }
 
-#project-grid {
+#page-home a {
+  text-decoration: none;
+}
+
+#project-grid-wrapper {
   margin-left: -0.3rem; /* minus #page-home img { margin } */
 }
