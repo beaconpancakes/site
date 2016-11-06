@@ -1,0 +1,46 @@
+.project-shell {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+body {
+  background-color: #333;
+  color: white;
+}
+
+body > nav {
+  width: 10%;
+  min-width: 60px;
+}
+
+#project-nav-left {
+  left: 0;
+}
+
+main {
+  position: relative;
+  box-sizing: border-box;
+  width: 50%;
+  left: 10%;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+main img {
+  width: 80%;
+  height: auto;
+  margin: 1rem 0;
+  box-shadow: 0 0 35px 2px black;
+}
+
+#project-nav-right {
+  right: 30%;
+}
+
+aside {
+  right: 0;
+  width: 30%;
+}
