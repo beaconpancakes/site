@@ -17,10 +17,6 @@ a:hover {
   font-weight: 400;
 }
 
-body.no-scroll {
-  overflow: hidden;
-}
-
 header {
   position: relative; /* For Blink for Android compatibility */
   z-index: 499;
@@ -69,31 +65,27 @@ h2 {
 
 #project-detail {
   display: flex;
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 999;
   background-color: #333;
   color: white;
-  outline: 1px red solid;
 }
 
-#project-detail > * {
-  outline: 1px blue solid;
-}
-
-#project-detail > nav {
-  flex: 1;
+#project-nav-left {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 10%;
   min-width: 60px;
   box-sizing: border-box;
+  background-color: transparent;
 }
 
 #project-detail > section {
+  position: relative;
+  box-sizing: border-box;
+  width: 50%;
+  left: 10%;
   text-align: center;
-  flex: 8;
-  overflow: auto;
   padding: 1rem 0;
 }
 
@@ -104,8 +96,24 @@ h2 {
   box-shadow: 0 0 35px 2px black;
 }
 
+#project-nav-right {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 30%;
+  width: 10%;
+  min-width: 60px;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
 #project-detail > aside {
-  flex: 4;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 30%;
+  box-sizing: border-box;
 }
 
 #wrapper {
