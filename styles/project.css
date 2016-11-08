@@ -6,6 +6,13 @@
   background-color: transparent;
 }
 
+.software-icons {
+  width: 40px;
+  height: auto;
+  box-shadow: none;
+  margin: 0.5rem;
+}
+
 body {
   background-color: #333;
   color: white;
@@ -17,7 +24,21 @@ body > nav {
 }
 
 #project-nav-left {
+  display: flex;
+  margin-top: 50vh;
+  margin-left: 4rem;
   left: 0;
+  background-image: url("/imgs/IconNavLeft.png");
+  background-repeat: no-repeat
+}
+
+#project-nav-left a {
+  width: 28px;
+  height: 44px;
+}
+
+#project-nav-left > a:hover {
+  background-image: url("/imgs/IconNavLeftHover.png");
 }
 
 main {
@@ -38,10 +59,52 @@ main img {
 }
 
 #project-nav-right {
+  display: flex;
+  margin-top: 50vh;
+  margin-right: -1rem;
   right: 30%;
+  background-image: url("/imgs/IconNavRight.png");
+  background-repeat: no-repeat
+}
+
+#project-nav-right a {
+  width: 28px;
+  height: 44px;
+}
+
+#project-nav-right > a:hover {
+  background-image: url("/imgs/IconNavRightHover.png");
 }
 
 aside {
   right: 0;
   width: 30%;
+  color: black;
+  text-align: left;
+}
+
+aside p {
+  margin-bottom: 0.5rem;
+}
+
+aside h3 {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #787a89;
+  margin-bottom: 0.7rem;
+}
+
+aside h4 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #a11f5b;
+  margin-bottom: 0.25rem;
+  margin-top: 1em;
+}
+
+#project-detail-wrapper {
+  margin: 2rem 2rem 0 0;
+  padding: 1.5rem;
+  background: white;
+  box-shadow: 0 0 35px 2px black;
 }
