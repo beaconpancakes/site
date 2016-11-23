@@ -1,15 +1,21 @@
 {
+  "metadata": {
+    "sitename": "Beatriz Alonso - Online Portfolio"
+  },
   "source": "src",
   "destination": "docs",
   "plugins": {
+    "metalsmith-collections": {
+      "projects": "projects/*.md"
+    },
     "metalsmith-markdown": true,
+    "metalsmith-permalinks": {
+      "relative": false,
+      "pattern": "projects/:title"
+    },
     "metalsmith-layouts": {
       "engine": "handlebars",
       "partials": "partials"
-    },
-    "metalsmith-collections": {
-      "projects": "src/projects/*.md"
-    },
-    "metalsmith-permalinks": "projects/:title"
+    }
   }
 }

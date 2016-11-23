@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+    maximum-scale=1, user-scalable=no">
+    <title>{{sitename}} - Project - {{title}}</title>
+    <meta name="author" content="Beatriz Alonso">
+    <link rel="stylesheet" href="/styles/base.css" media="screen">
+    <link rel="stylesheet" href="/styles/project.css" media="screen">
+  </head>
+  <body>
+    {{> header}}
+    <nav id="project-nav-left" class="project-shell project-nav">
+      {{#if previous}}
+      <a href="/{{previous.path}}"></a>
+      {{/if}}
+    </nav>
+    <main>
+      {{#each images}}
+      <a href="/imgs/{{name}}">
+        <img src="/imgs/{{name}}" alt="{{alt}}" />
+      </a>
+      {{/each}}
+      <aside class="project-shell">
+        <div id="project-detail-wrapper">
+          <h3>{{title}}</h3>
+          {{{contents}}}
+          <h4>Tools</h4>
+          {{#each tools as |tool|}}
+          <img src="/imgs/icons/tools/{{tool}}.png" alt="{{tool}}"
+          class="software-icons"/>
+          {{/each}}
+        </div>
+      </aside>
+    </main>
+    <nav id="project-nav-right" class="project-shell project-nav">
+      {{#if next}}
+      <a href="/{{next.path}}"></a>
+      {{/if}}
+    </nav>
+  </body>
+</html>

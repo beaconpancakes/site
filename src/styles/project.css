@@ -42,11 +42,11 @@ body > nav {
 }
 
 #project-nav-left a {
-  background-image: url("/imgs/IconNavLeft.png");
+  background-image: url("/imgs/icons/IconNavLeft.png");
 }
 
 #project-nav-left > a:hover {
-  background-image: url("/imgs/IconNavLeftHover.png");
+  background-image: url("/imgs/icons/IconNavLeftHover.png");
 }
 
 main {
@@ -72,11 +72,11 @@ main img {
 }
 
 #project-nav-right a {
-  background-image: url("/imgs/IconNavRight.png");
+  background-image: url("/imgs/icons/IconNavRight.png");
 }
 
 #project-nav-right > a:hover {
-  background-image: url("/imgs/IconNavRightHover.png");
+  background-image: url("/imgs/icons/IconNavRightHover.png");
 }
 
 aside {
