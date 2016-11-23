@@ -1,0 +1,12 @@
+{
+  "source": "src",
+  "destination": "docs",
+  "plugins": {
+    "metalsmith-markdown": true,
+    "metalsmith-layouts": "handlebars",
+    "metalsmith-collections": {
+      "projects": "src/projects/*.md"
+    },
+    "metalsmith-permalinks": "projects/:title"
+  }
+}
