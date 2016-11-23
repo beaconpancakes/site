@@ -1,0 +1,113 @@
+.project-shell {
+  position: fixed;
+  top: 110px; /* header height */
+  bottom: 0;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+.software-icons {
+  width: 40px;
+  height: auto;
+  box-shadow: none;
+  margin: 0.5rem;
+}
+
+body {
+  background-color: #333;
+  color: white;
+}
+
+body > nav {
+  width: 10%;
+  min-width: 60px;
+}
+
+.project-nav {
+  display: flex;
+  align-items: center;
+}
+
+.project-nav a {
+  width: 44px;
+  height: 44px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#project-nav-left {
+  justify-content: flex-end;
+  left: 0;
+}
+
+#project-nav-left a {
+  background-image: url("/imgs/IconNavLeft.png");
+}
+
+#project-nav-left > a:hover {
+  background-image: url("/imgs/IconNavLeftHover.png");
+}
+
+main {
+  position: relative;
+  box-sizing: border-box;
+  width: 50%;
+  left: 10%;
+  margin-top: 110px; /* header height */
+  text-align: center;
+  padding: 1rem 0;
+}
+
+main img {
+  width: 80%;
+  height: auto;
+  margin: 1rem 0;
+  box-shadow: 0 0 35px 2px black;
+}
+
+#project-nav-right {
+  justify-content: flex-start;
+  right: 30%;
+}
+
+#project-nav-right a {
+  background-image: url("/imgs/IconNavRight.png");
+}
+
+#project-nav-right > a:hover {
+  background-image: url("/imgs/IconNavRightHover.png");
+}
+
+aside {
+  right: 0;
+  width: 30%;
+  color: black;
+  text-align: left;
+}
+
+aside p {
+  margin-bottom: 0.5rem;
+}
+
+aside h3 {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #787a89;
+  margin-bottom: 0.7rem;
+}
+
+aside h4 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #a11f5b;
+  margin-bottom: 0.25rem;
+  margin-top: 1em;
+}
+
+#project-detail-wrapper {
+  margin: 2rem 2rem 0 0;
+  padding: 1.5rem;
+  background: white;
+  box-shadow: 0 0 35px 2px black;
+}
