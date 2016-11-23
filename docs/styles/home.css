@@ -1,0 +1,57 @@
+#wrapper {
+  display: flex;
+  margin-top: 110px; /* header height */
+}
+
+#wrapper > * {
+  padding-top: 2rem;
+}
+
+nav {
+  box-sizing: border-box;
+  width: 20%;
+  min-width: 200px;
+  font-size: 1.4rem;
+  background-color: #f3f3f3;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  padding: 1rem;
+}
+
+nav li.active {
+  background-color: white;
+}
+
+nav a {
+  color: #787a89;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+nav p {
+  font-size: 0.75rem;
+  font-weight: 400;
+  padding: 1rem;
+}
+
+main {
+  padding-left: 3rem;
+}
+
+#page-home img {
+  margin: 0.3rem;
+  border-radius: 10px 0;
+}
+
+#page-home a {
+  text-decoration: none;
+}
+
+#project-grid-wrapper {
+  margin-left: -0.3rem; /* minus #page-home img { margin } */
+}
