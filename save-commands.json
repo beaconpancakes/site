@@ -1,5 +1,7 @@
 {
   "commands": [
-    "src/**/* : metalsmith"  
+    "src/**/* : metalsmith",
+    "layouts/**/* : metalsmith",
+    "partials/**/* : metalsmith"
   ]
 }

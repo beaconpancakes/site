@@ -3,7 +3,10 @@
   "destination": "docs",
   "plugins": {
     "metalsmith-markdown": true,
-    "metalsmith-layouts": "handlebars",
+    "metalsmith-layouts": {
+      "engine": "handlebars",
+      "partials": "partials"
+    },
     "metalsmith-collections": {
       "projects": "src/projects/*.md"
     },
