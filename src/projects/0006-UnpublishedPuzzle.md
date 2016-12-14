@@ -3,6 +3,7 @@ layout: project.html
 collection: projects
 title: Puzzle game mock-ups
 thumb: PuzzleMockUps.png
+order: 0006
 images:
   -
     name: PuzzleMockUps.png

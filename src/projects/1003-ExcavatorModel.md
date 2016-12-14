@@ -3,6 +3,7 @@ layout: project.html
 collection: projects
 title: Excavator 3D Model
 thumb: ExcavatorModelling.png
+order: 1003
 images:
   -
     name: ExcavatorModelling.png

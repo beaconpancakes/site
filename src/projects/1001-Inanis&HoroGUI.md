@@ -3,6 +3,7 @@ layout: project.html
 collection: projects
 title: Inanis & Horo GUI
 thumb: InanisHoroGUI01.png
+order: 1001
 images:
   -
     name: InanisHoroGUI01.png

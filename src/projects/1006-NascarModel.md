@@ -3,6 +3,7 @@ layout: project.html
 collection: projects
 title: NASCAR Car 3D Model
 thumb: NascarCarModelling.png
+order: 1006
 images:
   -
     name: NascarCarModelling.png

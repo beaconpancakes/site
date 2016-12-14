@@ -3,6 +3,7 @@ layout: project.html
 collection: projects
 title: Taco & Burrito
 thumb: TacoBurritoSplash.png
+order: 2002
 images:
   -
     name: TacoBurritoSplash.png

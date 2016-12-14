@@ -3,6 +3,7 @@ layout: project.html
 collection: projects
 title: Burrito Character Design
 thumb: BurritoConcept.png
+order: 2001
 images:
   -
     name: BurritoConcept.png

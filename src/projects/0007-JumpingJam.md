@@ -3,6 +3,7 @@ layout: project.html
 collection: projects
 title: Jumping Jam Game
 thumb: JumpingJamCharacters.png
+order: 0007
 images:
   -
     name: JumpingJamCharacters.png

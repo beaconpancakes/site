@@ -3,6 +3,7 @@ layout: project.html
 collection: projects
 title: title
 thumb: thumb.png
+order: 0000
 images:
   -
     name: image.png

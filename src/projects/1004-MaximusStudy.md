@@ -3,6 +3,7 @@ layout: project.html
 collection: projects
 title: Maximus Study Sheet
 thumb: MaximusStudySheet.png
+order: 1004
 images:
   -
     name: MaximusStudySheet.png

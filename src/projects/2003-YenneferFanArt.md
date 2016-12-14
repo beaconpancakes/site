@@ -3,6 +3,7 @@ layout: project.html
 collection: projects
 title: Yennefer of Vengerberg Fanart
 thumb: YenneferFanArt.png
+order: 2003
 images:
   -
     name: YenneferFanArt.png

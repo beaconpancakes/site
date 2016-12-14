@@ -6,7 +6,10 @@
   "destination": "docs",
   "plugins": {
     "metalsmith-collections": {
-      "projects": "projects/*.md"
+      "projects": {
+        "pattern": "projects/*.md",
+        "sortBy": "order"
+      }
     },
     "metalsmith-markdown": true,
     "metalsmith-permalinks": {

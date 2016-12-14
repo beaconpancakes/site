@@ -3,6 +3,7 @@ layout: project.html
 collection: projects
 title: Manga Character Study
 thumb: MangaCharacter.png
+order: 1007
 images:
   -
     name: MangaCharacter.png

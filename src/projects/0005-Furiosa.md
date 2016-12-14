@@ -3,6 +3,7 @@ layout: project.html
 collection: projects
 title: Furiosa Fan Art
 thumb: Furiosa.png
+order: 0005
 images:
   -
     name: Furiosa.png

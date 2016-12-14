@@ -3,6 +3,7 @@ layout: project.html
 collection: projects
 title: Derpicorn
 thumb: Derpicorn.png
+order: 0002
 images:
   -
     name: Derpicorn.png

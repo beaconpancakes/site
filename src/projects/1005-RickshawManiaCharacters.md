@@ -3,6 +3,7 @@ layout: project.html
 collection: projects
 title: Rickshaw Mania Game Characters
 thumb: RickshawManiaCharacters.png
+order: 1005
 images:
   -
     name: RickshawManiaCharacters.png
@@ -18,5 +19,5 @@ tools:
   - illustrator
 ---
 
-Characters study and turn around for the fictional game Rickshaw Mania made as exercise for a character design subject in the **Art & Visual Design in video 
+Characters study and turn around for the fictional game Rickshaw Mania made as exercise for a character design subject in the **Art & Visual Design in video
 game master course** of **U-Tad**.
