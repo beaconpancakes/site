@@ -1,0 +1,19 @@
+---
+layout: project.html
+collection: projects
+title: Burrito Character Design
+thumb: BurritoConcept.png
+images:
+  -
+    name: BurritoConcept.png
+    alt: Burrito Character Design
+  -
+    name: BurritoConceptProgress.png
+    alt: Burrito Character Design Progress
+tools:
+  - photoshop
+---
+
+Concept art created for a personal project called **"Taco & Burrito, A Tex-Mex Adventure"** in a Western-like world with anthropomorphic animals.
+
+This is one of the main characters, a gunslinger ferret called Burrito.
