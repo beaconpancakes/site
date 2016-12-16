@@ -12,6 +12,8 @@ images:
     name: BurritoConceptProgress.png
     alt: Burrito Character Design Progress
 tools:
+  - pencil
+  - ink
   - photoshop
 ---
 

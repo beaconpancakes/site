@@ -9,6 +9,7 @@ images:
     name: TacoBurritoSplash.png
     alt: Taco Burrito Splash Illustration
 tools:
+  - pencil
   - photoshop
 ---
 

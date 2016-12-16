@@ -9,6 +9,7 @@ images:
     name: Furiosa.png
     alt: Furiosa Fan Art
 tools:
+  - pencil
   - photoshop
 ---
 

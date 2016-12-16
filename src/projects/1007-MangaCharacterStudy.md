@@ -9,6 +9,7 @@ images:
     name: MangaCharacter.png
     alt: Maximus Character Study Sheet
 tools:
+  - pencil
   - photoshop
 ---
 
