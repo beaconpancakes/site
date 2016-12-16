@@ -3,7 +3,7 @@
   <head>
     {{> meta}}
     <title>{{sitename}} - Project - {{title}}</title>
-    {{> styles}}  
+    {{> styles}}
     <link rel="stylesheet" href="/styles/project.css" media="screen">
   </head>
   <body>
@@ -26,7 +26,7 @@
           <h4>Tools</h4>
           {{#each tools as |tool|}}
           <img src="/imgs/icons/tools/{{tool}}.png" alt="{{tool}}"
-          class="software-icons"/>
+          class="software-icons" title="{{tool}}"/>
           {{/each}}
         </div>
       </aside>
