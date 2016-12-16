@@ -29,9 +29,11 @@ body > nav {
   justify-content: center;
 }
 
-.project-nav a {
+.project-nav * {
   width: 44px;
   height: 44px;
+  min-width: 44px;
+  min-height: 44px;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
