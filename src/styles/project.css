@@ -25,7 +25,8 @@ body > nav {
 
 .project-nav {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .project-nav a {
@@ -37,7 +38,7 @@ body > nav {
 }
 
 #project-nav-left {
-  justify-content: flex-end;
+  align-items: flex-end;
   left: 0;
 }
 
@@ -67,16 +68,35 @@ main img {
 }
 
 #project-nav-right {
-  justify-content: flex-start;
+  justify-content: space-between;
+  align-items: flex-start;
   right: 30%;
 }
 
-#project-nav-right a {
+#project-nav-right .next {
   background-image: url("/imgs/icons/IconNavRight.png");
 }
 
-#project-nav-right > a:hover {
+#project-nav-right .next:hover {
   background-image: url("/imgs/icons/IconNavRightHover.png");
+}
+
+#project-nav-right .close {
+  padding-top: 2rem;
+  background-origin: content-box;
+  background-image: url("/imgs/icons/IconClose.png");
+}
+
+#project-nav-right .close:hover {
+  background-image: url("/imgs/icons/IconCloseHover.png");
+}
+
+/* This is a helper to keep the right navigation arrow
+in the center of the box. Its total heigh must be the
+same as the .close element. */
+#project-nav-right .stop {
+  height: 44px; /* Icon's height */
+  padding-bottom: 2rem; /* .close: padding-top */
 }
 
 aside {
