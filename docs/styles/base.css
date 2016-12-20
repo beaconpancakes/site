@@ -18,13 +18,10 @@ a:hover {
 }
 
 header {
-  position: fixed;
+  position: sticky;
   z-index: 499;
   top: 0;
-  left: 0;
-  right: 0;
   box-sizing: border-box;
-  height: 110px;
   padding: 1rem;
   padding-top: 2rem;
   box-shadow: 0 2px 4px 0 rgba(75, 75, 75, 0.3);

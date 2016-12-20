@@ -1,6 +1,5 @@
 #wrapper {
   display: flex;
-  margin-top: 110px; /* header height */
 }
 
 #wrapper > * {
