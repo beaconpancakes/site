@@ -76,4 +76,15 @@ h2 {
 #contact {
   text-align: right;
   font-weight: 300;
+  margin-top: 0.35rem;
+}
+
+@media only screen and (max-width:60rem) {
+  header {
+    position: relative;
+  }
+
+  #header-top p {
+    display: none;
+  }
 }

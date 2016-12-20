@@ -45,6 +45,8 @@ main {
 #page-home img {
   margin: 0.3rem;
   border-radius: 10px 0;
+  max-width: 225px;
+  max-height: 225px;
 }
 
 #page-home a {
@@ -53,4 +55,33 @@ main {
 
 #project-grid-wrapper {
   margin-left: -0.3rem; /* minus #page-home img { margin } */
+}
+
+@media only screen and (max-width:60rem) {
+  #wrapper > * {
+    padding-top: 0;
+  }
+
+  nav {
+    display: none;
+  }
+
+  main {
+    padding: 0;
+  }
+
+  h2 {
+    display: none;
+  }
+
+  #project-grid-wrapper {
+    text-align: center;
+    font-size: 0;
+  }
+
+  #page-home img {
+    margin: 0;
+    border-radius: 0;
+    width: 50%;
+  }
 }
