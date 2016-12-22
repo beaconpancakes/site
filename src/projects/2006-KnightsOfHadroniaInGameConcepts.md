@@ -8,6 +8,9 @@ images:
   -
     name: KnightsOfHadroniaArielConcept02.png
     alt: Knights of Hadronia in-game concepts
+  -
+    name: KnightsOfHadroniaArielConcept03.png
+    alt: Knights of Hadronia in-game concepts
 tools:
   - illustrator
 ---
