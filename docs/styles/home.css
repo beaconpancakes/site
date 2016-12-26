@@ -1,3 +1,15 @@
+.download-cv {
+  display: none;
+  text-align: center;
+  padding: 0.65rem;
+  background-color: #f3f3f3;
+}
+
+.download-cv a {
+  color: #787a89;
+  font-weight: 200;
+}
+
 #wrapper {
   display: flex;
 }
@@ -58,6 +70,10 @@ main {
 }
 
 @media only screen and (max-width:60rem) {
+  .download-cv {
+    display: block;
+  }
+
   #wrapper > * {
     padding-top: 0;
   }
