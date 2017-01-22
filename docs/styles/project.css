@@ -53,15 +53,23 @@ body > nav {
 }
 
 main {
+  display: flex;
+  justify-content: space-between;
   position: relative;
   box-sizing: border-box;
-  width: 50%;
+  width: 90%;
   left: 10%;
-  text-align: center;
   padding: 1rem 0;
 }
 
-main img {
+.gallery {
+  box-sizing: border-box;
+  width: 56%;
+  text-align: center;
+  padding: 0;
+}
+
+.gallery img {
   width: 80%;
   height: auto;
   margin: 1rem 0;
@@ -128,20 +136,26 @@ aside h4 {
 }
 
 #project-detail-wrapper {
-  margin: 2rem 2rem 0 0;
+  margin: 1rem 2rem 0 0;
   padding: 1.5rem;
   background: white;
   box-shadow: 0 0 35px 2px black;
 }
 
 @media only screen and (max-width:60rem) {
+
   main {
+    display: block;
+  }
+
+  main,
+  .gallery {
     left: 0;
     width: 100%;
     padding: 0;
   }
 
-  main img {
+  .gallery img {
     margin-top: 0;
     padding-top: 0;
     width: 100%;
@@ -155,7 +169,10 @@ aside h4 {
     right: 0;
   }
 
+  aside,
   #project-detail-wrapper {
-    display: none;
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
   }
 }

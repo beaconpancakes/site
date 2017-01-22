@@ -14,12 +14,14 @@
       {{/if}}
     </nav>
     <main>
-      {{#each images}}
-      <a href="/imgs/{{name}}" target="_blank">
-        <img src="/imgs/{{name}}" alt="{{alt}}" />
-      </a>
-      {{/each}}
-      <aside class="project-shell">
+      <section class="gallery">
+        {{#each images}}
+        <a href="/imgs/{{name}}" target="_blank">
+          <img src="/imgs/{{name}}" alt="{{alt}}" />
+        </a>
+        {{/each}}
+      </section>
+      <aside>
         <div id="project-detail-wrapper">
           <h3>{{title}}</h3>
           {{{contents}}}
