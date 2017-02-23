@@ -3,7 +3,7 @@ layout: project.html
 collection: projects
 title: YouTurbo enemies
 thumb: YouTurboEnemies01.png
-order: 0003
+order: 0903
 images:
   -
     name: YouTurboEnemies01.png

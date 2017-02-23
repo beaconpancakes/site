@@ -3,7 +3,7 @@ layout: project.html
 collection: projects
 title: Jumpsters Game
 thumb: JumpstersCharacters.png
-order: 0008
+order: 0908
 images:
   -
     name: JumpstersCharacters.png

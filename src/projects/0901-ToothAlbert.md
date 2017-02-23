@@ -3,7 +3,7 @@ layout: project.html
 collection: projects
 title: Blue Dragon WIP
 thumb: ToothAlbert.png
-order: 0001
+order: 0901
 images:
   -
     name: ToothAlbert.png

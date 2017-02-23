@@ -3,7 +3,7 @@ layout: project.html
 collection: projects
 title: Kanan Jarrus Fan Art
 thumb: KananJarrus.png
-order: 0004
+order: 0904
 images:
   -
     name: KananJarrus.png
