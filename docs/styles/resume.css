@@ -108,6 +108,21 @@ hr {
   margin-top: 1.5rem;
 }
 
+#skills-column {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  padding: 0;
+  margin: 1rem;
+  margin-top: 3rem;
+  line-height: 1rem;
+}
+
+#skills-column h2 {
+  margin-top: 0.5rem;
+  font-size: 1.15rem;
+}
+
 #languages dt {
   font-size: 1rem;
   font-weight: 500;
@@ -156,5 +171,21 @@ main li {
     float: none;
     display: flex;
     flex-direction: column;
+  }
+
+  #skills-column {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    margin: 0;
+  }
+
+  #skills-column h2 {
+    font-size: 1.35rem;
+    margin-top: 1.5rem;
+  }
+
+  .whitespaces {
+    display: none;
   }
 }
