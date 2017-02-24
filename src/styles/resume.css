@@ -50,20 +50,23 @@ main {
   box-shadow: 10px 0 10px 0 rgba(0, 0, 0, 0.1);
 }
 
-h2 {
-  font-size: 1.35rem;
+h3 {
+  font-size: 1.25rem;
   font-weight: 400;
   margin-top: 1.7rem;
+  margin-bottom: 0.7rem;
+  color: #787a89;
 }
 
 #last-job {
   color: #a11f5b;
 }
 
-h3 {
-  font-size: 1.15rem;
+h4 {
+  font-size: 1.05rem;
   font-weight: 400;
   color: #787a89;
+  margin-bottom: 0.4rem;
 }
 
 main p {
@@ -72,7 +75,7 @@ main p {
   margin-bottom: 0.4rem;
 }
 
-.game-published h3 {
+.game-published h4 {
   color: #a11f5b;
 }
 
@@ -81,7 +84,7 @@ main p {
   font-weight: 400;
 }
 
-.platform, .game-published h3 {
+.platform, .game-published h4 {
   display: inline-block;
   margin-bottom: 0.5rem;
 }
@@ -118,7 +121,7 @@ hr {
   line-height: 1rem;
 }
 
-#skills-column h2 {
+#skills-column h3 {
   margin-top: 0.5rem;
   font-size: 1.15rem;
 }
@@ -180,8 +183,8 @@ main li {
     margin: 0;
   }
 
-  #skills-column h2 {
-    font-size: 1.35rem;
+  #skills-column h3 {
+    font-size: 1.25rem;
     margin-top: 1.5rem;
   }
 
