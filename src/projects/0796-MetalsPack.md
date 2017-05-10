@@ -11,6 +11,9 @@ images:
   -
     name: MetalsPack02.png
     alt: Metals Text Effect Pack
+  -
+    name: MetalsPack03.png
+    alt: Metals Text Effect Pack
 
 tools:
   - photoshop
