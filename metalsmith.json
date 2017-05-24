@@ -1,6 +1,9 @@
 {
   "metadata": {
-    "sitename": "Beatriz Alonso - Online Portfolio"
+    "sitename": "Beatriz Alonso - Online Portfolio",
+    "twitter": {
+      "user": "@beaconpancakes"
+    }
   },
   "source": "src",
   "destination": "docs",
