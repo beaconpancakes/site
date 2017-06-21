@@ -16,8 +16,8 @@ tools:
   - photoshop
 ---
 
-I have recently visited an art exhibition of a great spanish painter called [Ramón Casas](https://es.wikipedia.org/wiki/Ram%C3%B3n_Casas) and seeing the way he painted women, I wanted to make something similar. A strong and funny woman who can achieve anything!
+I have recently visited an art exhibition of a great Spanish painter called [Ramón Casas](https://es.wikipedia.org/wiki/Ram%C3%B3n_Casas) and looking at the way he painted women, I wanted to make something similar but with my style. A strong and funny woman who can achieve anything!
 
-So I decided to make a female vintage pilot, based in old photographs of WW2 pilots, and I tried to investigated an interesting combination of textures (hair, leather, smoke). It was made really quick, with the magic of the transparent brushed of **Photoshop** and I am particularly pleased with the blonde hair.
+So I decided to make a female vintage pilot, based in old photographs of WW2 pilots. I also tried to come up with an interesting combination of textures (hair, leather, smoke). I finished it really quick, with the magic of the transparent brushes of **Photoshop** and I am particularly pleased with the blonde hair.
 
 Hope you enjoy the process!
