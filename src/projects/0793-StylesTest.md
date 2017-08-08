@@ -27,8 +27,8 @@ tools:
 
 I decided to take a challenge, so I searched among my favorite 2D artists and then I tried to imitate their art styles. And who is best model but myself? How could these artists had designed my own face and also my personality? I usually don't make self-portraits, but the idea was really funny. And I have enjoyed a lot!
 
-So, for the first days, I am going to put this here but without the names of the artists. It is really hard to find all the names, but I am sure that some people would feel happy to try.
+For the first days, I published the drawings without the names of the artists, so people could try to guess the names of the artists. Now, everybody can see them and go to check their awesome work.
 
-**Hint**: the artists come from EEUU, Canada, France and Japan, and there are five women.
+**Fun Fact**: Artists come from EEUU, Canada, France and Japan, and there are five women!
 
-Good luck!
+Hope you like them!
