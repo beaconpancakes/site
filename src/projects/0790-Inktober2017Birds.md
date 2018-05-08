@@ -2,26 +2,26 @@
 layout: project.html
 collection: projects
 title: Inktober 2017 Birds
-thumb: Inktoberbirds.png
+thumb: InktoberBirds.png
 order: 0790
 images:
   -
-    name: Inktoberbirds01.png
+    name: InktoberBirds01.png
     alt: Inktober 2017 Spanish Birds Cartoon Ink Colored Pencils
   -
-    name: Inktoberbirds02.png
+    name: InktoberBirds02.png
     alt: Inktober 2017 Spanish Birds Cartoon Ink Colored Pencils
   -
-    name: Inktoberbirds03.png
+    name: InktoberBirds03.png
     alt: Inktober 2017 Spanish Birds Cartoon Ink Colored Pencils
   -
-    name: Inktoberbirds04.png
+    name: InktoberBirds04.png
     alt: Inktober 2017 Spanish Birds Cartoon Ink Colored Pencils
   -
-    name: Inktoberbirds05.png
+    name: InktoberBirds05.png
     alt: Inktober 2017 Spanish Birds Cartoon Ink Colored Pencils
   -
-    name: Inktoberbirds06.png
+    name: InktoberBirds06.png
     alt: Inktober 2017 Spanish Birds Cartoon Ink Colored Pencils
 
 
