@@ -139,6 +139,7 @@ hr {
 
 #languages dd {
   font-size: 0.85rem;
+  text-align: left;
 }
 
 main li {
