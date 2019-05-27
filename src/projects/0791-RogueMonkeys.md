@@ -29,8 +29,6 @@ images:
   -
     name: RogueMonkeysAnimation02.gif
     alt: Rogue Monkeys Mobile Casual Animation
-  -
-
 
 tools:
   - illustrator

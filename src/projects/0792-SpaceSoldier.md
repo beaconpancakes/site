@@ -11,7 +11,6 @@ images:
   -
     name: SpaceSoldier02.png
     alt: Space Soldier Futurist Realistic Character Concept
-  -
 
 tools:
   - photoshop
