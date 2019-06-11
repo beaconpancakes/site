@@ -3,7 +3,7 @@ layout: project.html
 collection: projects
 title: My wedding video game
 thumb: WeddingGame.png
-order: 0752
+order: 0787
 images:
   -
     name: WeddingGame01.png

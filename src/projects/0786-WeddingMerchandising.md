@@ -3,7 +3,7 @@ layout: project.html
 collection: projects
 title: My wedding merchandising
 thumb: WeddingMerch.png
-order: 0751
+order: 0786
 images:
   -
     name: WeddingMerch01.png

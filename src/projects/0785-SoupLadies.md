@@ -3,7 +3,7 @@ layout: project.html
 collection: projects
 title: Soup Ladies Watercolour sketch
 thumb: SoupLadies.png
-order: 0750
+order: 0785
 images:
   -
     name: SoupLadies.png
