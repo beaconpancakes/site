@@ -7,16 +7,15 @@ order: 0797000
 images:
   -
     name: AstroOtter.png
-    alt: Astro Otter Illustration
+    alt: Astro Otter Astronaut Vector Illustration
   -
     name: AstroOtter02.png
-    alt: Astro Otter Illustration Detail
+    alt: Astro Otter Astronaut Vector Illustration Detail
 
 tools:
   - illustrator
 ---
 
-Personal and funny illustration made in Adobe Illustrator of an astronaut otter
-called Captain Astro Pink.
+Personal and funny illustration made in Adobe Illustrator of an astronaut otter called Captain Astro Pink.
 
 It was really a ton of fun!
