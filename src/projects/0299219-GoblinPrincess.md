@@ -3,7 +3,7 @@ layout: project.html
 collection: projects
 title: Goblin Princess
 thumb: GoblinPrincess.png
-order: 0200219
+order: 0299219
 images:
   -
     name: GoblinPrincess00.png
