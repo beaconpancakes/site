@@ -34,13 +34,15 @@ tools:
   - illustrator
 ---
 
-Last summer, I started to collaborate on a small project called **Rogue Monkeys**. It is a casual mobile game in which three monkeys collect as many fruits as they can. It was a funny statement and I enjoyed a lot of it.
+Last summer, I started to collaborate on a small project called **Rogue Monkeys**. It is a casual mobile game in which three monkeys collect as many fruits as they can. It was a funny statement and I enjoyed it a lot.
 
-The requested look for the game was colourful, vibrant and cartoon. It should appear funny, fresh and beautiful too. I had to define the art direction, so I chose to use only **Adobe Illustrator** and make all the assets with vectors. With this, I hoped to obtain the desired look and also I could work faster like this because I felt more centred in the basic shapes.
+The requested look for the game was colourful, vibrant, and with a cartoon style. It should appear funny, fresh, and of course, beautiful too. I had to define the art direction, so I chose to use only **Adobe Illustrator** and make all the assets with vectors. With this,I knew I could get the desired look, and also, I could work faster and focused on the basic shapes.
 
-So, I worked for two of the Monkey characters and their animations, the first two environments, all the items (collectables and inventory items) and almost all of the UI, including the HUD and the screens flow.
+I worked for two of the Monkey characters and their animations, the first two environments, all the items (collectibles and inventory items), almost all of the UI, including the HUD, one icon, and the screens flow.
 
-I feel really satisfied with this project because I did my best to create a coherent art direction and integrate everything. And, although my animating skills are somewhat modest, I think I could resolve everything quite well.
+I feel satisfied with this project because I did my best to create a coherent art direction and to integrate everything. And, although my animating skills are modest, to say the least, I think I could solve everything quite well.
+
+I hope the game gets published soon and everybody can give it a try!
 
 You can check the game in the [Google Store](https://play.google.com/store/apps/details?id=com.GloomyCaveEntertainment.RogueMonkeys).
 And also, you can see a video with the gameplay [here](https://www.youtube.com/watch?v=tv8Kc365wP0&feature=youtu.be)!
