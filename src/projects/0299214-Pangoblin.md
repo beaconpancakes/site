@@ -24,7 +24,7 @@ When my husband said that, I knew I just _have to draw it_! I chose an ink brush
 
 It was a fun and fast drawing (it took me just an afternoon to make it) because I had the concept clear in my mind. I just had to look for pangolin references to understand the scale distribution and growth. The rest of the drawing was easy to create.
 
-I was remarkably happy with the line. But when later I tried to colorize the drawing, I was not convinced with the result. Just the line was fresh and funny and dynamic, and the color feels so much stable and excessively crafted. So finally I decided to get rid of the color layer, and everything feels better again.
+I was remarkably happy with the line. But when later I tried to colorize the drawing, I was not convinced with the result. Just the line was fresh and funny and dynamic, and the color feels so much stable and excessively crafted. So finally, I decided to get rid of the color layer, and everything feels better again.
 
 Sometimes it is better just to go back to the first attempt!
 
