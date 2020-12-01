@@ -20,9 +20,8 @@
       "relative": false,
       "pattern": "projects/:title"
     },
-    "metalsmith-layouts": {
-      "engine": "handlebars",
-      "partials": "partials"
-    }
+    "metalsmith-discover-partials": {},
+    "metalsmith-discover-helpers": {},
+    "metalsmith-layouts": true
   }
 }

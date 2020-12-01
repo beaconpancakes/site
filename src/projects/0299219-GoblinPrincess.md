@@ -1,5 +1,5 @@
 ---
-layout: project.html
+layout: project.hbs
 collection: projects
 title: Goblin Princess
 thumb: GoblinPrincess.png

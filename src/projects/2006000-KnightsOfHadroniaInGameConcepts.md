@@ -1,5 +1,5 @@
 ---
-layout: project.html
+layout: project.hbs
 collection: projects
 title: Knights Of Hadronia In-game Concepts
 thumb: KnightsOfHadroniaArielConcept02.png

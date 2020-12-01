@@ -1,5 +1,5 @@
 ---
-layout: project.html
+layout: project.hbs
 collection: projects
 title: Yennefer of Vengerberg Fanart
 thumb: YenneferFanArt.png

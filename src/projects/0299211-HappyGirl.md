@@ -1,5 +1,5 @@
 ---
-layout: project.html
+layout: project.hbs
 collection: projects
 title: Happy girl with toy windmill
 thumb: HappyGirl.png

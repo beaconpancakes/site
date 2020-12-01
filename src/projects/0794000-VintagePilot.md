@@ -1,5 +1,5 @@
 ---
-layout: project.html
+layout: project.hbs
 collection: projects
 title: Vintage Pilot
 thumb: VintagePilot.png

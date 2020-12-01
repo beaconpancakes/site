@@ -1,5 +1,5 @@
 ---
-layout: project.html
+layout: project.hbs
 collection: projects
 title: Nude in Sanguine
 thumb: NudeSanguine.png

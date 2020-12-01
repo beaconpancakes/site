@@ -1,4 +1,4 @@
 ---
 page-title: Resume
-layout: resume.html
+layout: resume.hbs
 ---

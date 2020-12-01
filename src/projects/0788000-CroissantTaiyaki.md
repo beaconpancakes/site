@@ -1,5 +1,5 @@
 ---
-layout: project.html
+layout: project.hbs
 collection: projects
 title: Croissant Taiyaki - A breakfast in Tokyo
 thumb: Taiyaki.png

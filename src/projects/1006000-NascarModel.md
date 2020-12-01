@@ -1,5 +1,5 @@
 ---
-layout: project.html
+layout: project.hbs
 collection: projects
 title: NASCAR Car 3D Model
 thumb: NascarCarModelling.png

@@ -1,5 +1,5 @@
 ---
-layout: project.html
+layout: project.hbs
 collection: projects
 title: Soup Ladies Watercolour sketch
 thumb: SoupLadies.png

@@ -1,5 +1,5 @@
 ---
-layout: project.html
+layout: project.hbs
 collection: projects
 title: Excavator 3D Model
 thumb: ExcavatorModelling.png

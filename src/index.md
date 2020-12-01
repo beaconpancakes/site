@@ -1,4 +1,4 @@
 ---
 page-title: Project Index
-layout: index.html
+layout: index.hbs
 ---

@@ -1,5 +1,5 @@
 ---
-layout: project.html
+layout: project.hbs
 collection: projects
 title: A boy and his horse
 thumb: BoyAndHorse.png

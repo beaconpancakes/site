@@ -1,5 +1,5 @@
 ---
-layout: project.html
+layout: project.hbs
 collection: projects
 title: YouTurbo Enemies
 thumb: YouTurboEnemies01.png

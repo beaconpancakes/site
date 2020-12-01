@@ -1,5 +1,5 @@
 ---
-layout: project.html
+layout: project.hbs
 collection: projects
 title: Rickshaw Mania Game Characters
 thumb: RickshawManiaCharacters.png

@@ -1,5 +1,5 @@
 ---
-layout: project.html
+layout: project.hbs
 collection: projects
 title: Inanis & Horo GUI
 thumb: InanisHoroGUI01.png

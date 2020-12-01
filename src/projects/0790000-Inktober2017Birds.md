@@ -1,5 +1,5 @@
 ---
-layout: project.html
+layout: project.hbs
 collection: projects
 title: Inktober 2017 Birds
 thumb: InktoberBirds.png

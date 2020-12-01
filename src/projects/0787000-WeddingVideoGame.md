@@ -1,5 +1,5 @@
 ---
-layout: project.html
+layout: project.hbs
 collection: projects
 title: My wedding video game
 thumb: WeddingGame.png

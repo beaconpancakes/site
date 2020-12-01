@@ -1,5 +1,5 @@
 ---
-layout: project.html
+layout: project.hbs
 collection: projects
 title: Jumpsters Game
 thumb: JumpstersCharacters.png
