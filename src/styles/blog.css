@@ -41,8 +41,8 @@ nav p {
 }
 
 main {
-  padding-left: 3rem;
-  padding-right: 3rem;
+  /* padding-left: 3rem;
+  padding-right: 3rem; */
   box-sizing: border-box;
   width: 80%;
   max-width: 80ex;
@@ -67,7 +67,8 @@ main p {
 hr {
   border: none;
   border-top: 3px dotted #787a89;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
 }
 
 main li {
@@ -77,14 +78,22 @@ main li {
   margin-bottom: 0.4rem;
 }
 
-.highlight {
+.disclaimer {
   color: #a11f5b;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.highlight {
   font-size: 1.25rem;
   font-weight: 400;
 }
 
 .intro {
   margin-bottom: 2rem;
+  background-color: rgba(161, 31, 91, 0.65);
+  padding: 1rem 3rem;
+  color: white;
 }
 
 main p.publication-date {
@@ -94,6 +103,28 @@ main p.publication-date {
   margin-top: 0.4rem;
   margin-bottom: 0.4rem;
   text-align: right;
+}
+
+.blog-entry p {
+  margin-bottom: 0.8rem;
+  text-align:justify;
+}
+
+.content-spaced {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.about {
+  margin-bottom: 2rem;
+  background-color: rgba(161, 31, 91, 0.65);
+  padding: 1rem 2.25rem;
+  color: white;
+}
+
+.about a {
+  color: white;
+  font-weight: bold;
 }
 
 @media only screen and (max-width:60rem) {
@@ -107,7 +138,8 @@ main p.publication-date {
   }
 
   main {
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     width: 100%;
   }
 
@@ -115,6 +147,16 @@ main p.publication-date {
     float: none;
     display: flex;
     flex-direction: column;
+  }
+
+  .content-spaced {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .intro {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   #skills-column {
