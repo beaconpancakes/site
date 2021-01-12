@@ -10,7 +10,7 @@
 h3 {
   font-size: 1.25rem;
   font-weight: 400;
-  margin-top: 1.7rem;
+  margin-top: 1.2rem;
   margin-bottom: 0.7rem;
   color: #787a89;
 }
@@ -50,7 +50,7 @@ main p {
   margin-bottom: 0.5rem;
 }
 
-.title-icon h3 {
+.experience-block h3 {
   display: inline-block;
   margin-right: 0.75rem;
 }
@@ -87,9 +87,17 @@ hr {
   line-height: 1rem;
 }
 
+#skills-column ul {
+  padding-bottom: 2rem;
+}
+
 #skills-column h4 {
   margin-bottom: 0.75rem;
   font-size: 1.15rem;
+}
+
+#languages {
+  padding-bottom: 2rem;
 }
 
 #languages dt {
@@ -149,6 +157,10 @@ main li {
   #skills-column h3 {
     font-size: 1.25rem;
     margin-top: 1.5rem;
+  }
+
+  .title-icon {
+    display: inline-block;
   }
 
   .whitespaces {
