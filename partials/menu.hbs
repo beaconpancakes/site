@@ -1,7 +1,22 @@
-<nav>
+<nav class="navigation">
   <ul>
     {{#menuEntry for="Project Index" href="/"}}Index{{/menuEntry}}
     {{#menuEntry for="Blog" href="/blog/"}}Blog{{/menuEntry}}
     {{#menuEntry for="Resume" href="/resume/"}}Resume{{/menuEntry}}
   </ul>
 </nav>
+<div class="navigation-control">
+  <label><div class="arrow-toggle">▼</div><input id="display-nav-toggle" type="checkbox"/></label>
+</div>
+<script>
+  const displayNavToggle = document.getElementById('display-nav-toggle');
+  displayNavToggle.addEventListener('change', onChange);
+  function onChange(evt) {
+    const wrapper = document.getElementById('wrapper');
+    if (displayNavToggle.checked === true) {
+      wrapper.classList.add('show-menu');
+    } else {
+      wrapper.classList.remove('show-menu');
+    }
+  }
+</script>
