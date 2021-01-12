@@ -79,7 +79,11 @@ a:hover {
 
 .arrow-toggle {
   transition: transform 500ms;
-  font-size: 32px;
+}
+
+.arrow-toggle img {
+  width: auto;
+  margin: 0;
 }
 
 #wrapper.show-menu .arrow-toggle {
@@ -87,8 +91,6 @@ a:hover {
 }
 
 main {
-  padding-left: 3rem;
-  padding-right: 3rem;
   box-sizing: border-box;
   max-width: 80ex;
   background-color: #fff;
@@ -171,6 +173,15 @@ h2 {
 
   .navigation {
     width: 100%;
+    background-color: #a11f5b;
+  }
+
+  .navigation a {
+    color: white;
+  }
+
+  .navigation li.active {
+    background-color: #c26d94;
   }
 
   .navigation-control {
@@ -178,7 +189,6 @@ h2 {
   }
 
   main {
-    padding: 2rem;
     max-width: none;
   }
 

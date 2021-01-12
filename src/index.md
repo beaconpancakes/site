@@ -1,4 +1,4 @@
 ---
-page-title: Project Index
+page-title: Gallery
 layout: index.hbs
 ---

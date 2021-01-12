@@ -1,12 +1,17 @@
 <nav class="navigation">
   <ul>
-    {{#menuEntry for="Project Index" href="/"}}Index{{/menuEntry}}
+    {{#menuEntry for="Gallery" href="/"}}Gallery{{/menuEntry}}
     {{#menuEntry for="Blog" href="/blog/"}}Blog{{/menuEntry}}
     {{#menuEntry for="Resume" href="/resume/"}}Resume{{/menuEntry}}
   </ul>
 </nav>
 <div class="navigation-control">
-  <label><div class="arrow-toggle">▼</div><input id="display-nav-toggle" type="checkbox"/></label>
+  <label>
+    <div class="arrow-toggle">
+      <img src="/imgs/icons/IconToggle.png">
+    </div>
+    <input id="display-nav-toggle" type="checkbox"/>
+  </label>
 </div>
 <script>
   const displayNavToggle = document.getElementById('display-nav-toggle');
