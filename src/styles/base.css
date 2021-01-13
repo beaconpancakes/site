@@ -1,3 +1,8 @@
+:root {
+  --navigation-height: auto;
+  --navigation-control-height: 44px;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -65,6 +70,8 @@ a:hover {
   display: none;
   color: white;
   background-color: #a11f5b;
+  max-height: var(--navigation-control-height);
+  min-height: var(--navigation-control-height);
 }
 
 .navigation-control label {
@@ -86,8 +93,16 @@ a:hover {
   margin: 0;
 }
 
-#wrapper.show-menu .arrow-toggle {
+.navigation.show-menu .arrow-toggle {
   transform: rotate(180deg);
+}
+
+.navigation ~ * {
+  transition: transform 500ms;
+}
+
+.navigation.show-menu ~ * {
+  transform: translateY(var(--navigation-height));
 }
 
 main {
@@ -163,11 +178,17 @@ h2 {
 
   #wrapper {
     display: block;
-    transform: translateY(-197.9px);
+  }
+
+  .navigation {
+    --navigation-height-offset: calc(-1 * var(--navigation-height) + 1px);
+    position: absolute;
+    z-index: 490;
+    transform: translateY(var(--navigation-height-offset));
     transition: transform 500ms;
   }
 
-  #wrapper.show-menu {
+  .navigation.show-menu {
     transform: none;
   }
 
@@ -189,6 +210,8 @@ h2 {
   }
 
   main {
+    position: relative;
+    top: var(--navigation-control-height);
     max-width: none;
   }
 

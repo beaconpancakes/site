@@ -1,27 +1,36 @@
-<nav class="navigation">
-  <ul>
+<nav id="navigation" class="navigation">
+  <ul id="navigation-list">
     {{#menuEntry for="Gallery" href="/"}}Gallery{{/menuEntry}}
     {{#menuEntry for="Blog" href="/blog/"}}Blog{{/menuEntry}}
     {{#menuEntry for="Resume" href="/resume/"}}Resume{{/menuEntry}}
   </ul>
+  <div class="navigation-control">
+    <label>
+      <div class="arrow-toggle">
+        <img src="/imgs/icons/IconToggle.png">
+      </div>
+      <input id="display-nav-toggle" type="checkbox"/>
+    </label>
+  </div>
 </nav>
-<div class="navigation-control">
-  <label>
-    <div class="arrow-toggle">
-      <img src="/imgs/icons/IconToggle.png">
-    </div>
-    <input id="display-nav-toggle" type="checkbox"/>
-  </label>
-</div>
 <script>
+  window.addEventListener('load', updateNavigationHeightCSSVar);
+  window.addEventListener('resize', updateNavigationHeightCSSVar);
   const displayNavToggle = document.getElementById('display-nav-toggle');
   displayNavToggle.addEventListener('change', onChange);
+
+  function updateNavigationHeightCSSVar() {
+    const navigation = document.getElementById('navigation-list');
+    document.documentElement.style.setProperty('--navigation-height', `${navigation.offsetHeight}px`);
+    console.log(`${navigation.offsetHeight}px`);
+  }
+
   function onChange(evt) {
-    const wrapper = document.getElementById('wrapper');
+    const navigation = document.getElementById('navigation');
     if (displayNavToggle.checked === true) {
-      wrapper.classList.add('show-menu');
+      navigation.classList.add('show-menu');
     } else {
-      wrapper.classList.remove('show-menu');
+      navigation.classList.remove('show-menu');
     }
   }
 </script>
