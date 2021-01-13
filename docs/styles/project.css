@@ -52,7 +52,7 @@ body > nav {
   background-image: url("/imgs/icons/IconNavLeftHover.png");
 }
 
-main {
+main.project-page {
   display: flex;
   justify-content: space-between;
   position: relative;
@@ -60,6 +60,9 @@ main {
   width: 90%;
   left: 10%;
   padding: 1rem 0;
+  box-shadow: none;
+  background-color: transparent;
+  max-width: none;
 }
 
 .gallery {
@@ -144,11 +147,11 @@ aside h4 {
 
 @media only screen and (max-width:60rem) {
 
-  main {
+  main.project-page {
     display: block;
   }
 
-  main,
+  main.project-page,
   .gallery {
     left: 0;
     width: 100%;
