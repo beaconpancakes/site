@@ -1,57 +1,10 @@
-.download-cv {
-  display: none;
-  text-align: center;
-  padding: 0.65rem;
-  background-color: #f3f3f3;
-}
-
-.download-cv a {
-  color: #787a89;
-  font-weight: 200;
-}
-
-#wrapper {
-  display: flex;
-}
-
 #wrapper > * {
   padding-top: 2rem;
 }
 
-nav {
-  box-sizing: border-box;
-  width: 20%;
-  min-width: 200px;
-  font-size: 1.4rem;
-  background-color: #f3f3f3;
-}
-
-nav ul {
-  list-style: none;
-}
-
-nav li {
-  padding: 1rem;
-}
-
-nav li.active {
-  background-color: white;
-}
-
-nav a {
-  color: #787a89;
-  text-decoration: none;
-  font-weight: 300;
-}
-
-nav p {
-  font-size: 0.75rem;
-  font-weight: 400;
-  padding: 1rem;
-}
-
 main {
   padding-left: 3rem;
+  max-width: none;
 }
 
 #page-home img {
@@ -70,16 +23,9 @@ main {
 }
 
 @media only screen and (max-width:60rem) {
-  .download-cv {
-    display: block;
-  }
 
   #wrapper > * {
     padding-top: 0;
-  }
-
-  nav {
-    display: none;
   }
 
   main {

@@ -1,6 +1,5 @@
 
 #wrapper {
-  display: flex;
   background-color: #a11f5b;
 }
 
@@ -8,54 +7,12 @@
   padding-top: 2rem;
 }
 
-nav {
-  box-sizing: border-box;
-  width: 20%;
-  min-width: 200px;
-  font-size: 1.4rem;
-  background-color: #f3f3f3;
-}
-
-nav ul {
-  list-style: none;
-}
-
-nav li {
-  padding: 1rem;
-}
-
-nav li.active {
-  background-color: white;
-}
-
-nav a {
-  color: #787a89;
-  text-decoration: none;
-  font-weight: 300;
-}
-
-nav p {
-  font-size: 0.75rem;
-  font-weight: 400;
-  padding: 1rem;
-}
-
-main {
-  /* padding-left: 3rem;
-  padding-right: 3rem; */
-  box-sizing: border-box;
-  width: 80%;
-  max-width: 80ex;
-  background-color: #fff;
-  box-shadow: 10px 0 10px 0 rgba(0, 0, 0, 0.1);
-}
-
 h3 {
   font-size: 1.25rem;
   font-weight: 400;
   margin-top: 0.5rem;
   margin-bottom: 0.7rem;
-  color: #787a89;
+  color: #a11f5b;
 }
 
 main p {
@@ -116,7 +73,6 @@ main p.publication-date {
 }
 
 .about {
-  margin-bottom: 2rem;
   background-color: rgba(161, 31, 91, 0.65);
   padding: 1rem 2.25rem;
   color: white;
@@ -127,26 +83,16 @@ main p.publication-date {
   font-weight: bold;
 }
 
+img {
+  margin: 0.75rem auto 1rem;
+  width: 100%;
+  height: auto;
+}
+
 @media only screen and (max-width:60rem) {
 
   #wrapper > * {
     padding-top: 0;
-  }
-
-  nav {
-    display: none;
-  }
-
-  main {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    width: 100%;
-  }
-
-  main img {
-    float: none;
-    display: flex;
-    flex-direction: column;
   }
 
   .content-spaced {
@@ -157,18 +103,6 @@ main p.publication-date {
   .intro {
     padding-left: 2rem;
     padding-right: 2rem;
-  }
-
-  #skills-column {
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-    column-count: 1;
-    margin: 0;
-  }
-
-  #skills-column h3 {
-    font-size: 1.25rem;
-    margin-top: 1.5rem;
   }
 
   .whitespaces {

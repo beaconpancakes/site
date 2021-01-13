@@ -1,3 +1,8 @@
+:root {
+  --navigation-height: auto;
+  --navigation-control-height: 44px;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -27,6 +32,83 @@ a:hover {
   box-shadow: 0 2px 4px 0 rgba(75, 75, 75, 0.3);
   color: black;
   background-color: white;
+}
+
+.navigation {
+  position: relative;
+  box-sizing: border-box;
+  flex: 0 0 200px;
+  font-size: 1.4rem;
+  background-color: #f3f3f3;
+}
+
+.navigation ul {
+  list-style: none;
+}
+
+.navigation li.active {
+  background-color: white;
+}
+
+.navigation a {
+  display: block;
+  color: #787a89;
+  text-decoration: none;
+  font-weight: 300;
+  padding: 1rem;
+}
+
+.navigation p {
+  font-size: 0.75rem;
+  font-weight: 400;
+  padding: 1rem;
+}
+
+.navigation-control {
+  text-align: center;
+  display: none;
+  color: white;
+  background-color: #a11f5b;
+  max-height: var(--navigation-control-height);
+  min-height: var(--navigation-control-height);
+}
+
+.navigation-control label {
+  display: block;
+  cursor: pointer;
+}
+
+.navigation-control input {
+  position: absolute;
+  bottom: 100%;
+}
+
+.arrow-toggle {
+  transition: transform 500ms;
+}
+
+.arrow-toggle img {
+  width: auto;
+  margin: 0;
+}
+
+.navigation.show-menu .arrow-toggle {
+  transform: rotate(180deg);
+}
+
+.navigation ~ * {
+  transition: transform 500ms;
+}
+
+.navigation.show-menu ~ * {
+  transform: translateY(var(--navigation-height));
+}
+
+main {
+  box-sizing: border-box;
+  max-width: 80ex;
+  background-color: #fff;
+  box-shadow: 10px 0 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 h1 {
@@ -59,6 +141,10 @@ h2 {
   color: #a11f5b;
 }
 
+#wrapper {
+  display: flex;
+}
+
 #social-media {
   text-align: right;
   margin-left: auto;
@@ -87,6 +173,49 @@ h2 {
 @media only screen and (max-width:60rem) {
   header {
     position: relative;
+  }
+
+  #wrapper {
+    display: block;
+  }
+
+  .navigation {
+    --navigation-height-offset: calc(-1 * var(--navigation-height) + 1px);
+    position: absolute;
+    z-index: 490;
+    transform: translateY(var(--navigation-height-offset));
+    transition: transform 500ms;
+  }
+
+  .navigation.show-menu {
+    transform: none;
+  }
+
+  .navigation {
+    width: 100%;
+    background-color: #a11f5b;
+  }
+
+  .navigation a {
+    color: white;
+  }
+
+  .navigation li.active {
+    background-color: #c26d94;
+  }
+
+  .navigation-control {
+    display: block;
+  }
+
+  main {
+    position: relative;
+    top: var(--navigation-control-height);
+    max-width: none;
+  }
+
+  h2 {
+    padding-top: 1rem;
   }
 }
 

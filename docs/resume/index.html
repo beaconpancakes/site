@@ -19,7 +19,7 @@
     </script>
   </head>
   <body>
-    <header>
+    <header class="main-header">
       <div id="header-top">
         <h1>
           <a href="/">Beatriz Alonso</a>
@@ -46,15 +46,49 @@
       </p>
     </header>
     <div id="wrapper">
-      <nav>
-        <ul>
-          <li><a href="/">Index</a></li>
+      <nav id="navigation" class="navigation">
+        <ul id="navigation-list">
+          <li><a href="/">Gallery</a></li>
           <li><a href="/blog/">Blog</a></li>
           <li class="active"><a href="/resume/">Resume</a></li>
         </ul>
+        <div class="navigation-control">
+          <label>
+            <div class="arrow-toggle">
+              <img src="/imgs/icons/IconToggle.png">
+            </div>
+            <input id="display-nav-toggle" type="checkbox"/>
+          </label>
+        </div>
       </nav>
+      <script>
+        window.addEventListener('load', updateNavigationHeightCSSVar);
+        window.addEventListener('resize', updateNavigationHeightCSSVar);
+        const displayNavToggle = document.getElementById('display-nav-toggle');
+        displayNavToggle.addEventListener('change', onChange);
+      
+        function updateNavigationHeightCSSVar() {
+          const navigation = document.getElementById('navigation-list');
+          document.documentElement.style.setProperty('--navigation-height', `${navigation.offsetHeight}px`);
+          console.log(`${navigation.offsetHeight}px`);
+        }
+      
+        function onChange(evt) {
+          const navigation = document.getElementById('navigation');
+          if (displayNavToggle.checked === true) {
+            navigation.classList.add('show-menu');
+          } else {
+            navigation.classList.remove('show-menu');
+          }
+        }
+      </script>
       <main>
         <h2>Curriculum Vitae</h2>
+        <p class="download-cv">
+          <a href="/resources/BeatrizAlonsoResume.pdf" target="_blank">
+            Download my <strong>resume</strong> in pdf!
+          </a>
+        </p>
         <h3>Professional Experience</h3>
           <dl>
             <dt>2018 - 2020</dt>
@@ -103,8 +137,8 @@
             </dd>
           </dl>
         <hr>
-          <div class="title-icon">
-            <img src="/imgs/icons/IconGames.png" alt="Games">
+          <div class="experience-block">
+            <img class="title-icon" src="/imgs/icons/IconGames.png" alt="Games">
             <h3>Published Games</h3>
             <dl>
               <dt>2018</dt>
@@ -215,8 +249,8 @@
             </dl>
           </div>
         <hr>
-        <div class="title-icon">
-          <img src="/imgs/icons/IconCompetences.png" alt="Competences">
+        <div class="experience-block">
+          <img class="title-icon" src="/imgs/icons/IconCompetences.png" alt="Competences">
           <h3>Skills</h3>
         </div>
         <div id="skills-column">
@@ -261,8 +295,8 @@
             </ul>
           </div>
           <hr>
-          <div class="title-icon">
-            <img src="/imgs/icons/IconSoftware.png"
+          <div class="experience-block">
+            <img class="title-icon" src="/imgs/icons/IconSoftware.png"
             alt="Software">
             <h3>Software</h3>
               <ul>
@@ -277,8 +311,8 @@
               </ul>
           </div>
         <hr>
-        <div class="title-icon">
-          <img src="/imgs/icons/IconLanguages.png" alt="Languages">
+        <div class="experience-block">
+          <img class="title-icon" src="/imgs/icons/IconLanguages.png" alt="Languages">
           <h3>Languages</h3>
             <dl id="languages">
               <dt>Spanish</dt>
@@ -287,12 +321,6 @@
               <dd>Vantage</dd>
             </dl>
         </div>
-        <div class="title-icon">
-        <p class="download-cv">
-          <a href="/resources/BeatrizAlonsoResume.pdf" target="_blank">
-            Download my <strong>resume</strong> in pdf!
-          </a>
-        </p>
       </main>
     </div>
   </body>

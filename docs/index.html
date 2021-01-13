@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1,
     maximum-scale=1, user-scalable=no">
     <meta name="author" content="Beatriz Alonso">
-    <title>Beatriz Alonso - Online Portfolio - Project Index</title>
+    <title>Beatriz Alonso - Online Portfolio - Gallery</title>
     <meta name="description" content="Beatriz Alonso - Personal Website">
     <link rel="stylesheet" href="/styles/base.css" media="screen">
     <link rel="stylesheet" href="/styles/home.css" media="screen">
@@ -19,7 +19,7 @@
     </script>
   </head>
   <body>
-    <header>
+    <header class="main-header">
       <div id="header-top">
         <h1>
           <a href="/">Beatriz Alonso</a>
@@ -45,19 +45,43 @@
         </a>
       </p>
     </header>
-    <p class="download-cv">
-      <a href="resources/BeatrizAlonsoResume.pdf" target="_blank">
-        Download my <strong>resume</strong> in pdf!
-      </a>
-    </p>
     <div id="wrapper">
-      <nav>
-        <ul>
-          <li class="active"><a href="/">Index</a></li>
+      <nav id="navigation" class="navigation">
+        <ul id="navigation-list">
+          <li class="active"><a href="/">Gallery</a></li>
           <li><a href="/blog/">Blog</a></li>
           <li><a href="/resume/">Resume</a></li>
         </ul>
+        <div class="navigation-control">
+          <label>
+            <div class="arrow-toggle">
+              <img src="/imgs/icons/IconToggle.png">
+            </div>
+            <input id="display-nav-toggle" type="checkbox"/>
+          </label>
+        </div>
       </nav>
+      <script>
+        window.addEventListener('load', updateNavigationHeightCSSVar);
+        window.addEventListener('resize', updateNavigationHeightCSSVar);
+        const displayNavToggle = document.getElementById('display-nav-toggle');
+        displayNavToggle.addEventListener('change', onChange);
+      
+        function updateNavigationHeightCSSVar() {
+          const navigation = document.getElementById('navigation-list');
+          document.documentElement.style.setProperty('--navigation-height', `${navigation.offsetHeight}px`);
+          console.log(`${navigation.offsetHeight}px`);
+        }
+      
+        function onChange(evt) {
+          const navigation = document.getElementById('navigation');
+          if (displayNavToggle.checked === true) {
+            navigation.classList.add('show-menu');
+          } else {
+            navigation.classList.remove('show-menu');
+          }
+        }
+      </script>
       <main id="page-home">
         <h2>Home</h2>
         <div id="project-grid-wrapper">
