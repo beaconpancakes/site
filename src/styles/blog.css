@@ -12,7 +12,7 @@ h3 {
   font-weight: 400;
   margin-top: 0.5rem;
   margin-bottom: 0.7rem;
-  color: #787a89;
+  color: #a11f5b;
 }
 
 main p {
@@ -103,18 +103,6 @@ img {
   .intro {
     padding-left: 2rem;
     padding-right: 2rem;
-  }
-
-  #skills-column {
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-    column-count: 1;
-    margin: 0;
-  }
-
-  #skills-column h3 {
-    font-size: 1.25rem;
-    margin-top: 1.5rem;
   }
 
   .whitespaces {
