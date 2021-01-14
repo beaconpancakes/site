@@ -41,7 +41,7 @@ main li {
 
 .highlight {
   font-size: 1.25rem;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .intro {
@@ -53,7 +53,7 @@ main li {
 
 main p.publication-date {
   font-size: 1.00rem;
-  font-weight: 200;
+  font-weight: 400;
   color: #787a89;
   margin-top: 0.4rem;
   margin-bottom: 0.4rem;
