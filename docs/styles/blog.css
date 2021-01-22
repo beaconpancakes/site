@@ -51,6 +51,10 @@ main li {
   color: white;
 }
 
+.intro img {
+  border: white 3px solid;
+}
+
 main p.publication-date {
   font-size: 1.00rem;
   font-weight: 400;
