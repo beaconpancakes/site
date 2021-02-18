@@ -26,11 +26,9 @@ hr {
   margin-bottom: 2.5rem;
 }
 
-main li {
-  list-style-type: none;
-  font-size: 0.85rem;
-  font-weight: 300;
-  margin-bottom: 0.4rem;
+.blog-list li {
+  list-style-type: circle;
+  margin-bottom: 0.5rem;
 }
 
 .disclaimer {
