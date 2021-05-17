@@ -66,6 +66,14 @@ main p.publication-date {
   margin-bottom: 0.8rem;
 }
 
+.image-foot {
+  font-size: 0.85rem;
+  font-weight: 200;
+  font-style: italic;
+  margin-top: -1rem;
+  padding-bottom: 0.8rem;
+}
+
 .content-spaced {
   padding-left: 3rem;
   padding-right: 3rem;
