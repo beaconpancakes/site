@@ -14,8 +14,8 @@ images:
 tools:
   - illustrator
 ---
+These are some examples of the Graphic User Interface (GUI) I created for the final project of **Art & Visual Design in video game master course** of **U-Tad**.
 
-Graphic User Interface design made for the final project of **Art & Visual Design in video game master course** of **U-Tad**.
+The final project was to create from zero a video game for mobile platforms. They set up several groups of students from different disciplines (art, design, and code), and we had to work together. The name of our game was **Inanis & Horo**,  and we developed it with **Project Anarchy Engine**. I made all these assets with Adobe Illustrator.
 
-The final project was a video game for mobile platforms, **Inanis & Horo**,  developed with Project Anarchy Engine. The GUI was made with Adobe Illustrator and developed with
-Autodesk Scaleform.
+We had several problems with the GUI, and we had to fix it in the last month of the project. I am happy with the results because everything came up quickly, and the results were lovely.

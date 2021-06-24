@@ -20,7 +20,6 @@ tools:
   - photoshop
 ---
 
-Work In Progress of a pack of assets for a graveyard level, for an indie
-video game developed in Unity.
+These assets were a Work In Progress of a pack of 3D assets I did for a graveyard level of an indie video game developed in **Unity**.
 
-I am done with the mapping stage and started with the texturing, so I will update soon with advanced work.
+In the end, the project came to nothing, but I could practice a little bit of 3D work.  

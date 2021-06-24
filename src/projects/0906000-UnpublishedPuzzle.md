@@ -19,4 +19,6 @@ tools:
   - illustrator
 ---
 
-Some mock-ups made in Adobe Illustrator for an unpublished puzzle game by **HeYou Games**. The game was an iteration for a previous game and a small team was working in it for a couple of months. In the end, it was displaced by another more important projects.
+I made these mock-ups in **Adobe Illustrator** for a dismissed puzzle game by **HeYou Games**. The game was an iteration for a previous game called **LikWit**, and a small team was working on it for a couple of months. We wanted a clean and smart-looking style for the game, keeping everything minimalist but beautiful.
+
+In the end, the company discarded this project to focus on different projects.

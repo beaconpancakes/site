@@ -19,5 +19,4 @@ tools:
   - illustrator
 ---
 
-Characters study and turn around for the fictional game Rickshaw Mania made as exercise for a character design subject in the **Art & Visual Design in video
-game master course** of **U-Tad**.
+I did this character study and turn-around as an exercise for a character design subject in the **Art & Visual Design in video game master course** of **U-Tad**. Another classmate and I created a fictional game called **Rickshaw Mania**, and I did the characters and one of the vehicles. 

@@ -19,6 +19,6 @@ tools:
   - photoshop
 ---
 
-A pack of metal textures effects in 2D made in **Adobe Photoshop** only with layer styles and default textures. It is specially made to use with fonts, because layer effects work really great with them.
+A pack of metal textures effects in 2D I made in **Adobe Photoshop**,  only with layer styles and default textures. These textures are made mainly for their use with fonts (especially the bold and thick ones) because layer effects work great with them.
 
-This pack was made to use it as a base for customized font creation, for UI Art and for Graphic Design.
+I created this pack intending to use it as a base for customized font creation, UI Art, and Graphic Design.

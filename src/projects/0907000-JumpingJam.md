@@ -27,10 +27,8 @@ tools:
   - unity
 ---
 
-Characters, enemies and art made for the mobile game Jumping Jam, iteration from
-the game Jumpsters, developed by **HeYou Games**.
+Here you can see some characters, enemies, and general art I made for the mobile game **Jumping Jam**, developed by **HeYou Games**.
 
-The assets were first made in Adobe Illustrator, then retouched
-in Adobe Photoshop, exported to 3D meshes in Autodesk 3ds Max, and finally exported to Unity.
+It was an iteration from our previous game [Jumpsters](/projects/jumpsters-game/). We use a pretty similar pipeline, but we change the style (we added gradients and make everything more colorful), and we improved the pipeline to make it quicker. We still used **Adobe Illustrator**, **Adobe Photoshop**, and **Autodesk 3ds Max**, but we could reduce to the minimum previous problems and develop faster and better.
 
-I made all the art and processes, from concept to final implementation.
+As the only artist in the team, I created all the art in the game, from concept to final implementation. Also, I wrote all the processes and pipelines.

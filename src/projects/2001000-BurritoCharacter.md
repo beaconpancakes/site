@@ -17,6 +17,6 @@ tools:
   - photoshop
 ---
 
-Concept art created for a personal project called **"Taco & Burrito, A Tex-Mex Adventure"** in a Western-like world with anthropomorphic animals.
+This is some character concept art, that I created for a personal project called **"Taco & Burrito, A Tex-Mex Adventure"**, settled in a Western-like world with anthropomorphic animals. I loved the project and, although it never came to an end, I enjoyed it very much.
 
-This is one of the main characters, a gunslinger ferret called Burrito.
+Here I am drawing one of the two main characters, a gunslinger ferret called Burrito. It was a lot of fun to draw!

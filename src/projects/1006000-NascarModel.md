@@ -12,4 +12,4 @@ tools:
   - 3dsmax
 ---
 
-NASCAR Car modelled and mapped in Autodesk 3ds max for a project in the **Art & Visual Design in video game master course** of **U-Tad**..
+I modeled and mapped this NASCAR Car in **Autodesk 3d Max** for the **Art & Visual Design in video game master course** of **U-Tad**. At that time, I was still learning 3D, and it was challenging to create all these curves and maintain a relatively low number of polygons. 

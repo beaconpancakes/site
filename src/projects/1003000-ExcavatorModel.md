@@ -15,4 +15,4 @@ tools:
   - 3dsmax
 ---
 
-Excavator modelled and mapped in Autodesk 3ds max for a project in the **Art & Visual Design in video game master course** of **U-Tad**..
+I did this excavator model and mapping in **Autodesk 3d max** for the **Art & Visual Design in video game master course** of **U-Tad**. It could seem like a simple model, but the arm had a lot of complexity. The caterpillar track was easier to make than it could seem, and I was pleased with the results. 

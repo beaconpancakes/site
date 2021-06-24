@@ -13,5 +13,4 @@ tools:
   - photoshop
 ---
 
-Study of a manga character (with a free theme) made as style exercise for a character design subject in the **Art & Visual Design in video game master
-course** of **U-Tad**.
+This drawing is a manga character design I made as a styling exercise for a character design subject in the **Art & Visual Design in video game master course** of **U-Tad**. I first drew it in class using just a pencil, and later at home, I scanned and colored it with Photoshop. Since manga style is not my usual technique, I had a good time figuring out how everything should work. I also tried to make a style similar to the video game **The World Ends with You**.

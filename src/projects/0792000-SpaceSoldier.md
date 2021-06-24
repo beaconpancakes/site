@@ -16,6 +16,6 @@ tools:
   - photoshop
 ---
 
-Concept art of a soldier from a futurist world with his nice space suit! This is a sample of how I paint in 2D like it was a 3D model. This is something I have always love to do, because and I have the opportunity to play with a lot of different textures and lights. It was a ton of work, but I am really happy with the result (although he end by the chest...) and all the character concept.
+This one is one concept art of a soldier from a futurist world with his nice space suit! It is a sample of how I can paint in 2D like it was a 3D model. I have always loved to paint this way because I can play with many different textures and lights. It was a ton of work, but I am very happy with the result (although he ends by the chest...) and the character mood.
 
 To make it, I used only **Adobe Photoshop** and a lot of references for the skin tones and the metal reflections.

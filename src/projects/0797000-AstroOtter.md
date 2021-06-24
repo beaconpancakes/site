@@ -16,6 +16,6 @@ tools:
   - illustrator
 ---
 
-Personal and funny illustration made in Adobe Illustrator of an astronaut otter called Captain Astro Pink.
+Personal and funny illustration I made in **Adobe Illustrator** of an astronaut otter called **Captain Astro Pink**.
 
 It was really a ton of fun!
