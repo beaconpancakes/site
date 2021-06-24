@@ -12,6 +12,6 @@ tools:
   - illustrator
 ---
 
-Assets samples made for a throne room in the video game project **Knights of Hadronia** of **Allé Voy**.
+These are assets samples that I made for a throne room in the video game project **Knights of Hadronia**, from **Allé Voy** studio.
 
-These are the first assets with the desired level of detail and size, although the style was still undefined. They were used to size the first environments.
+They were early assets, and I tried to set the desired level of detail and size, although the style was still undefined. We used these assets to establish the sizing for the first environments.

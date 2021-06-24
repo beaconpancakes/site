@@ -16,6 +16,6 @@ tools:
   - photoshop
 ---
 
-This illustration made with Photoshop was my first attempt to made a digital illustration without borders and lines. Also, I tried to make a good value work, starting with black and white and later adding color, as seeing in the progress.
+This illustration made with Photoshop was my first attempt to make a digital illustration without borders and lines. I was aiming to create good shades with a painter-like approach. Also, I tried to make a good value work with the tones, so I decided to start with black and white and later adding color.
 
-It was difficult and it takes me more time that I expected, but it was great.
+All the work was quite hard, and it takes me more time than I expected, but it was great. At least for my first time!

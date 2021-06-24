@@ -13,6 +13,6 @@ tools:
   - photoshop
 ---
 
-Splash Illustration created for a personal project called **"Taco & Burrito, A Tex-Mex Adventure"** in a Western-like world with anthropomorphic animals.
+This drawing is a splash illustration that I created for a personal project called **"Taco & Burrito, A Tex-Mex Adventure"**, settled in a Western-like world with anthropomorphic animals. I loved the project and, although it never came to an end, I enjoyed it very much.
 
-This illustration is the presentation of the main characters, Taco and Burrito, a gunslinger and a luchador enmascarado.
+This illustration is the presentation for the main characters, Taco and Burrito, a luchador enmascarado (masked professional wrestler) and a gunslinger, respectively.

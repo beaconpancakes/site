@@ -14,6 +14,6 @@ tools:
   - photoshop
 ---
 
-First main character concepts made for the video game project **Knights of Hadronia** of **Allé Voy**.
+These are early concepts for the main character for the video game project **Knights of Hadronia**, from **Allé Voy** studio.
 
-These are approaches to the feeling and the clothes of the character, before it was decided the style was cartoon-like.
+They are just the first approaches to the mood and the clothes of this character. After some concepts and different proposals, we decided to change to a more cartoon-like style. But it is still interesting to see how it was at the origin. 

@@ -12,6 +12,6 @@ tools:
   - photoshop
 ---
 
-Illustration made for fun just for tryng some tricks of speed painting, deformations filters and transformation tool.
+This one is an illustration I made for fun. I wanted to try some tricks of speed painting, deformations filters, and Photoshop's transformation tool.
 
-When I first start using Photoshop I never used filters; now I have learned how to use them and I'm a better artist.
+I remember when I first start using Photoshop, I never used filters. Years later, since I have learned how to use them, I think that has made me a better artist.

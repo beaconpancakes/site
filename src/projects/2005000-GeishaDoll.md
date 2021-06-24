@@ -12,4 +12,4 @@ tools:
   - illustrator
 ---
 
-Illustration of a geisha made in Illustrator as a personal experiment with lines and patterns.
+This drawing is an illustration of a geisha I made in Illustrator. It was a personal experiment with lines and patterns. The lines looked so good in black that I decided to add just the minimum touch of color.

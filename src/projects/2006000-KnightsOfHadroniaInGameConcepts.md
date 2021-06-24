@@ -15,6 +15,6 @@ tools:
   - illustrator
 ---
 
-First in-game character concepts made for the video game project **Knights of Hadronia** of **Allé Voy**.
+These are early concepts for the in-game characters for the video game project **Knights of Hadronia**, from **Allé Voy** studio.
 
-These are made in searching of the style and proportions of the main character, all in a isometric projection with a vectorial approach.
+I made these concepts searching for the style and the proportions of the main character, and they were all made in an isometric projection with a vectorial approach.
