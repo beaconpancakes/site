@@ -62,7 +62,7 @@ dt {
 
 dd {
   margin-bottom: 0.85rem;
-  text-align: right;
+  text-align: left;
 }
 
 dd img {
@@ -116,6 +116,11 @@ main li {
   font-size: 0.85rem;
   font-weight: 300;
   margin-bottom: 0.4rem;
+}
+
+.competences li {
+  list-style-type: circle;
+  margin-left: 2.5rem;
 }
 
 .download-cv {
