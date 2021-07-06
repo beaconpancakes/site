@@ -121,6 +121,7 @@ aside {
 aside p {
   margin-bottom: 0.5rem;
   text-align: left;
+  line-height: 1.5rem;
 }
 
 aside h3 {
