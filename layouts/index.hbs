@@ -16,6 +16,8 @@
         <h2>Home</h2>
         <div id="project-grid-wrapper">
           {{#each projects}}
+          {{! In case this goes nuts and `path` is rendered as [object Object]
+          try updating node packages `npm update` }}
           <a href="{{path}}">
             <img src="/imgs/thumbs/{{thumb}}" alt="{{title}}" />
           </a>
