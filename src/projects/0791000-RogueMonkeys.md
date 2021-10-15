@@ -34,13 +34,14 @@ tools:
   - illustrator
 ---
 
-Last summer, I started to collaborate on a small project called **Rogue Monkeys**. It is a casual mobile game in which three monkeys collect as many fruits as they can. It was a funny statement and I enjoyed it a lot.
+Last summer, I started to collaborate on a small project called **Rogue Monkeys**. It is a casual and simple mobile game in which three monkeys collect as many fruits as possible. It was a funny statement, and I enjoyed it a lot.
 
-The requested look for the game was colourful, vibrant, and with a cartoon style. It should appear funny, fresh, and of course, beautiful too. I had to define the art direction, so I chose to use only **Adobe Illustrator** and make all the assets with vectors. With this,I knew I could get the desired look, and also, I could work faster and focused on the basic shapes.
+The requested look-and-feel for the game was colorful, vibrant, and with a cartoon style. It should appear funny, fresh, and of course, beautiful too. I could define the art direction, so I chose to use only **Adobe Illustrator** and make all the assets with vectors. With this, I knew I could get the desired look, and also, I could work faster and focused on the basic shapes.
 
-I worked for two of the Monkey characters and their animations, the first two environments, all the items (collectibles and inventory items), almost all of the UI, including the HUD, one icon, and the screens flow.
+I created two Monkey characters and their animations, the first two environments, all the items (collectibles and inventory items), almost all of the UI, including the HUD, one icon, and the screens flow.
 
-I feel satisfied with this project because I did my best to create a coherent art direction and to integrate everything. And, although my animating skills are modest, to say the least, I think I could solve everything quite well.
+I feel satisfied with this project because I did my best to create a coherent art direction and integrate everything. And, although my animating skills are modest, to say the least, I think I could solve everything quite well.
+
 
 I hope the game gets published soon and everybody can give it a try!
 
