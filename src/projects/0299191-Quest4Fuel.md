@@ -37,7 +37,7 @@ tools:
 
 ---
 
-These images are, like the previous [project](/projects/fantasy-heroes-manager-game-prototype/) part of the UI work I did for **Demium Games** and their mobile game called **Quest 4 Fuel**.
+Like the previous [project](/projects/fantasy-heroes-manager-game-prototype/), these images are part of the UI work I did for **Demium Games** and their mobile game called **Quest 4 Fuel**. 
 
 It was a **Mad Max movie-inspired game**, where you led a group of warriors in their vehicles in the fighting for more fuel in a post-apocalyptic world. It was a fascinating concept, and we counted on superb art and exceptional artists and programmers. My main goal was to create a beautiful and functional UI. Since there was already a clear art direction, I had to adapt to that style, and I oriented all the art to look like a mix between clean vectors and a handpainted style. I was very interested in using vectors like the previous one because of the cleanliness and scalability. I also wanted some innovation, so I chose to use a lot of hand-drawing, transparency, and gradients.    
 
